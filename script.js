@@ -17,7 +17,7 @@ const getSum = () => {
 
 	const totalCell = document.createElement('td');
 	totalCell.textContent=`Total = `+total;
-
+	totalCell.className='prices'
 	newRow.appendChild(totalCell)
 	document.querySelector('table').appendChild(newRow);
 
